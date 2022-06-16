@@ -1,0 +1,13 @@
+# name: Adeline
+spring:
+  datasource:
+    url: jdbc:h2:mem:db
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
